@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: >-
+  If you use this dataset or code, please cite the paper below.
+title: >-
+  Data and code for: Tiling decomposition multiplicity predicts
+  stability of GaN(0001) surface reconstructions
+authors:
+  - family-names: Kuboyama
+    given-names: Tetsuji
+    affiliation: Computer Centre, Gakushuin University
+  - family-names: Kusaba
+    given-names: Akira
+    affiliation: Research Institute for Applied Mechanics, Kyushu University
+  - family-names: Kawka
+    given-names: Karol
+    affiliation: Institute of High Pressure Physics, Polish Academy of Sciences
+  - family-names: Kempisty
+    given-names: Pawel
+    affiliation: Institute of High Pressure Physics, Polish Academy of Sciences
+repository-code: "https://github.com/tkub/2026gan-tiling"
+license: MIT
+# TODO: add the arXiv identifier when assigned, e.g.
+# identifiers:
+#   - type: doi
+#     value: 10.48550/arXiv.XXXX.XXXXX
+#     description: arXiv preprint
+preferred-citation:
+  type: article
+  title: >-
+    Tiling decomposition multiplicity predicts stability of
+    GaN(0001) surface reconstructions
+  authors:
+    - family-names: Kuboyama
+      given-names: Tetsuji
+    - family-names: Kusaba
+      given-names: Akira
+    - family-names: Kawka
+      given-names: Karol
+    - family-names: Kempisty
+      given-names: Pawel
+  year: 2026
+  notes: >-
+    preprint, arXiv:XXXX.XXXXX (fill in the arXiv ID; replace with the
+    journal reference upon publication)
