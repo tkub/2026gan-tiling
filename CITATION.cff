@@ -19,11 +19,10 @@ authors:
     affiliation: Institute of High Pressure Physics, Polish Academy of Sciences
 repository-code: "https://github.com/tkub/2026gan-tiling"
 license: MIT
-# TODO: add the arXiv identifier when assigned, e.g.
-# identifiers:
-#   - type: doi
-#     value: 10.48550/arXiv.XXXX.XXXXX
-#     description: arXiv preprint
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2607.11105
+    description: arXiv preprint
 preferred-citation:
   type: article
   title: >-
@@ -40,5 +39,5 @@ preferred-citation:
       given-names: Pawel
   year: 2026
   notes: >-
-    preprint, arXiv:XXXX.XXXXX (fill in the arXiv ID; replace with the
-    journal reference upon publication)
+    preprint, arXiv:2607.11105 (to be replaced with the journal
+    reference upon publication)

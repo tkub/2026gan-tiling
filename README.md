@@ -4,9 +4,8 @@ Data accompanying the paper:
 
 > T. Kuboyama, A. Kusaba, K. Kawka, and P. Kempisty, *Tiling decomposition multiplicity
 > predicts stability of GaN(0001) surface reconstructions*,
-> arXiv:XXXX.XXXXX (2026).
-> <!-- TODO: fill in the arXiv ID; replace with the journal reference
->      upon publication -->
+> [arXiv:2607.11105](https://arxiv.org/abs/2607.11105) (2026).
+> <!-- Replace with the journal reference upon publication. -->
 
 The paper enumerates all 416,683 EC-compatible adatom configurations
 (3 Ga adatoms + 18 H atoms) on the GaN(0001)-(6×6) surface and shows
