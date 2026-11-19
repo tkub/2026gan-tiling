@@ -81,4 +81,4 @@ Commons Attribution 4.0 International License (CC BY 4.0; see
 
 ## Contact
 
-Tetsuji Kuboyama (Gakushuin University), kuboyama@tk.cc.gakushuin.ac.jp
+Tetsuji Kuboyama (Gakushuin University), ori-prm-github@tk.cc.gakushuin.ac.jp
