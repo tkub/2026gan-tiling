@@ -4,8 +4,9 @@ Data accompanying the paper:
 
 > T. Kuboyama, A. Kusaba, K. Kawka, and P. Kempisty, *Tiling decomposition multiplicity
 > predicts stability of GaN(0001) surface reconstructions*,
-> [arXiv:2607.11105](https://arxiv.org/abs/2607.11105) (2026).
-> <!-- Replace with the journal reference upon publication. -->
+> Phys. Rev. Materials (2026), [doi:10.1103/v92n-z3fg](https://doi.org/10.1103/v92n-z3fg);
+> preprint [arXiv:2607.11105](https://arxiv.org/abs/2607.11105).
+> <!-- Add the volume and article number upon publication. -->
 
 The paper enumerates all 416,683 EC-compatible adatom configurations
 (3 Ga adatoms + 18 H atoms) on the GaN(0001)-(6×6) surface and shows
@@ -66,8 +67,8 @@ python3 scripts/paper_statistics.py
 |:---|:---|
 | `enumeration.py` | Library for the tiling enumeration and symmetry analysis. Run as a script, it re-derives everything from the definitions and verifies the shipped catalogs: the 456 tilings (exact set cover), the orbit decompositions under G (7 classes) and G′ (8 classes), and sampled `n_til` values. |
 | `compute_descriptors_relaxed.py` | Recomputes `n_til` (verified against the catalog), the geometric descriptors of the paper (I_iso and its Shannon variant, V_HH, mean Ga–H distance), and the local frustration count `n_adj` (number of nearest-neighbor pairs of bare sites) for the 2,529 relaxed configurations, and writes `data/descriptors_relaxed.csv`. |
-| `paper_statistics.py` | Prints the statistics quoted in the paper: catalog statistics, the per-class verification of the n_til-max rule (Table III), descriptor correlations, and the MLIP–DFT comparison for the two DFT validation sets. |
-| `verify_nadj0_arrangements.py` | Verifies the bare-site arrangement counts of Sec. III F: 246 arrangements with n_adj = 0 at the 14 canonical placements, of which 88 are untileable, and the reduction of the 158 tileable ones to the 102-configuration census. |
+| `paper_statistics.py` | Prints the statistics quoted in the paper: catalog statistics, the per-class verification of the n_til-max rule (Table II), descriptor correlations, and the MLIP–DFT comparison for the two DFT validation sets. |
+| `verify_nadj0_arrangements.py` | Verifies the bare-site arrangement counts of Sec. III D: 246 arrangements with n_adj = 0 at the 14 canonical placements, of which 88 are untileable, and the reduction of the 158 tileable ones to the 102-configuration census. |
 | `check_ising_model.py` | Re-evaluates the data-driven Ising model of Kawka et al. (2024) over the 14,896 configurations at the Class-7 placement and confirms its unique minimum, configuration 109117. |
 
 ## License

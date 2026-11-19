@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the bare-site arrangement counts of Sec. III F.
+"""Verify the bare-site arrangement counts of Sec. III D.
 
 Checks, by direct enumeration of independent 9-subsets at the
 canonical representative placement of each of the 14 classes:

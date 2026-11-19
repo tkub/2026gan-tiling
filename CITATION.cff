@@ -4,25 +4,26 @@ message: >-
 title: >-
   Data and code for: Tiling decomposition multiplicity predicts
   stability of GaN(0001) surface reconstructions
+version: 1.0.0
 authors:
   - family-names: Kuboyama
     given-names: Tetsuji
     affiliation: Computer Centre, Gakushuin University
+    orcid: "https://orcid.org/0000-0003-1590-0231"
   - family-names: Kusaba
     given-names: Akira
     affiliation: Research Institute for Applied Mechanics, Kyushu University
+    orcid: "https://orcid.org/0000-0002-1296-9180"
   - family-names: Kawka
     given-names: Karol
     affiliation: Institute of High Pressure Physics, Polish Academy of Sciences
+    orcid: "https://orcid.org/0000-0002-7605-9549"
   - family-names: Kempisty
-    given-names: Pawel
+    given-names: Paweł
     affiliation: Institute of High Pressure Physics, Polish Academy of Sciences
+    orcid: "https://orcid.org/0000-0003-0700-5560"
 repository-code: "https://github.com/tkub/2026gan-tiling"
 license: MIT
-identifiers:
-  - type: doi
-    value: 10.48550/arXiv.2607.11105
-    description: arXiv preprint
 preferred-citation:
   type: article
   title: >-
@@ -36,8 +37,10 @@ preferred-citation:
     - family-names: Kawka
       given-names: Karol
     - family-names: Kempisty
-      given-names: Pawel
+      given-names: Paweł
+  journal: Physical Review Materials
   year: 2026
+  doi: 10.1103/v92n-z3fg
   notes: >-
-    preprint, arXiv:2607.11105 (to be replaced with the journal
-    reference upon publication)
+    Preprint: arXiv:2607.11105. Volume and article number to be
+    added upon publication.

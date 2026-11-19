@@ -4,12 +4,12 @@ paper_statistics.py -- Prints the statistics quoted in the paper,
 recomputed from the data files in data/.
 
 Covers: catalog-wide n_til statistics, the per-class verification of
-the n_til-max rule and within-class Spearman correlations (Table III),
+the n_til-max rule and within-class Spearman correlations (Table II),
 descriptor correlations (Sec. III E), the log(n_til) relation
 (Sec. IV B), the MLIP-DFT comparison statistics for the
 fixed-placement and cross-class DFT validation sets
-(Sec. III C, III D), and the local frustration count n_adj
-(Sec. III F): within-class correlations, energy per adjacent pair,
+(Secs. III B and III C), and the local frustration count n_adj
+(Sec. III D): within-class correlations, energy per adjacent pair,
 mediation of the n_til correlation, and the n_adj = 0 census.
 
 Run from the repository root:  python3 scripts/paper_statistics.py
@@ -233,7 +233,7 @@ def main():
           f"{(max(c5) - min(c5)) * 1000:.0f} meV")
 
 
-    # -- placement-chain geometry (Sec. III F, Class-2 exception) --
+    # -- placement-chain geometry (Sec. III D, Class-2 exception) --
     import itertools
     canon2 = {}
     with open('data/position_catalog_kG3.csv') as f:
@@ -262,7 +262,7 @@ def main():
           "Class 1 is collinear at 2*sqrt(3)*a; Classes 3-14 are "
           "non-collinear")
 
-    # -- local frustration count n_adj (Sec. III F) --
+    # -- local frustration count n_adj (Sec. III D) --
     print("\n== local frustration count n_adj ==")
     tri = [f for f in range(72) if f % 2 == 1]
 
@@ -383,7 +383,7 @@ def main():
     print(f"DFT (n = {len(xs)}): rho(n_adj, dE_DFT) = "
           f"{spearman(xs, ys):+.2f}, slope = {1000 * sl2:.0f} meV/pair")
 
-    # -- complete n_adj = 0 set and untileable arrangements (Sec. III F) --
+    # -- complete n_adj = 0 set and untileable arrangements (Sec. III D) --
     print("\n== complete n_adj = 0 set (102) and untileable arrangements ==")
     res167 = {int(r['config_id']): float(r['energy_eV'])
               for r in csv.DictReader(open('data/relax_all167_out.csv'))
@@ -439,7 +439,7 @@ def main():
     print(f"untileable (83 well-behaved): +{marg[0]:.0f}..+{marg[-1]:.0f} "
           f"meV above class minima (median +{median(marg):.0f}); "
           f"5 escaped structures excluded")
-    # combined margins quoted in Sec. III D
+    # combined margins quoted in Appendix B
     allrel = defaultdict(list)
     for r0 in rel:
         allrel[r0[1]].append((r0[2], r0[3]))
