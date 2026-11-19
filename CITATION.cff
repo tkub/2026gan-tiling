@@ -23,7 +23,9 @@ authors:
     affiliation: Institute of High Pressure Physics, Polish Academy of Sciences
     orcid: "https://orcid.org/0000-0003-0700-5560"
 repository-code: "https://github.com/tkub/2026gan-tiling"
-license: MIT
+# Single SPDX value (read by Zenodo). data/ is CC BY 4.0 (LICENSE-DATA);
+# scripts/ is MIT (LICENSE). See README.md.
+license: CC-BY-4.0
 preferred-citation:
   type: article
   title: >-
